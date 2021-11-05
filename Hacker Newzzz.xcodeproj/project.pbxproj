@@ -15,6 +15,8 @@
 		26695E5C2735BD6C00B71355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26695E5A2735BD6C00B71355 /* LaunchScreen.storyboard */; };
 		26695E672735BD6D00B71355 /* Hacker_NewzzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26695E662735BD6D00B71355 /* Hacker_NewzzzTests.swift */; };
 		26695E722735BD6D00B71355 /* Hacker_NewzzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26695E712735BD6D00B71355 /* Hacker_NewzzzUITests.swift */; };
+		26695E862735D54A00B71355 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26695E852735D54A00B71355 /* NetworkManager.swift */; };
+		26695E8E2735D6A400B71355 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26695E8D2735D6A400B71355 /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		26695E6D2735BD6D00B71355 /* Hacker NewzzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hacker NewzzzUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26695E712735BD6D00B71355 /* Hacker_NewzzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacker_NewzzzUITests.swift; sourceTree = "<group>"; };
 		26695E732735BD6D00B71355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26695E852735D54A00B71355 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		26695E8D2735D6A400B71355 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,10 @@
 			children = (
 				26695E4F2735BD6400B71355 /* AppDelegate.swift */,
 				26695E512735BD6400B71355 /* SceneDelegate.swift */,
-				26695E532735BD6400B71355 /* ContentView.swift */,
+				26695E822735D4E200B71355 /* Models */,
+				26695E832735D50100B71355 /* View */,
+				26695E842735D51700B71355 /* Controllers */,
 				26695E552735BD6C00B71355 /* Assets.xcassets */,
-				26695E5A2735BD6C00B71355 /* LaunchScreen.storyboard */,
 				26695E5D2735BD6C00B71355 /* Info.plist */,
 				26695E572735BD6C00B71355 /* Preview Content */,
 			);
@@ -134,6 +139,31 @@
 				26695E732735BD6D00B71355 /* Info.plist */,
 			);
 			path = "Hacker NewzzzUITests";
+			sourceTree = "<group>";
+		};
+		26695E822735D4E200B71355 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				26695E852735D54A00B71355 /* NetworkManager.swift */,
+				26695E8D2735D6A400B71355 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		26695E832735D50100B71355 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26695E5A2735BD6C00B71355 /* LaunchScreen.storyboard */,
+				26695E532735BD6400B71355 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26695E842735D51700B71355 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26695E8E2735D6A400B71355 /* PostData.swift in Sources */,
+				26695E862735D54A00B71355 /* NetworkManager.swift in Sources */,
 				26695E502735BD6400B71355 /* AppDelegate.swift in Sources */,
 				26695E522735BD6400B71355 /* SceneDelegate.swift in Sources */,
 				26695E542735BD6400B71355 /* ContentView.swift in Sources */,

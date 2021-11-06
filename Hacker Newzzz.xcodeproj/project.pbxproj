@@ -17,6 +17,8 @@
 		26695E722735BD6D00B71355 /* Hacker_NewzzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26695E712735BD6D00B71355 /* Hacker_NewzzzUITests.swift */; };
 		26695E862735D54A00B71355 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26695E852735D54A00B71355 /* NetworkManager.swift */; };
 		26695E8E2735D6A400B71355 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26695E8D2735D6A400B71355 /* PostData.swift */; };
+		26695E932736B16E00B71355 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26695E922736B16E00B71355 /* DetailView.swift */; };
+		26695E982736B55B00B71355 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26695E972736B55B00B71355 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		26695E732735BD6D00B71355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26695E852735D54A00B71355 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		26695E8D2735D6A400B71355 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		26695E922736B16E00B71355 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		26695E972736B55B00B71355 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 			children = (
 				26695E5A2735BD6C00B71355 /* LaunchScreen.storyboard */,
 				26695E532735BD6400B71355 /* ContentView.swift */,
+				26695E922736B16E00B71355 /* DetailView.swift */,
+				26695E972736B55B00B71355 /* WebView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,10 +303,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				26695E8E2735D6A400B71355 /* PostData.swift in Sources */,
+				26695E932736B16E00B71355 /* DetailView.swift in Sources */,
 				26695E862735D54A00B71355 /* NetworkManager.swift in Sources */,
 				26695E502735BD6400B71355 /* AppDelegate.swift in Sources */,
 				26695E522735BD6400B71355 /* SceneDelegate.swift in Sources */,
 				26695E542735BD6400B71355 /* ContentView.swift in Sources */,
+				26695E982736B55B00B71355 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
